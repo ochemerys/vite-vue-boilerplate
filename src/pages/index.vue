@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { computed } from "vue";
 
-const count = ref(0);
+import { useStore, Mutation } from "../store";
+
+const store = useStore();
+const count = computed(() => store.state.count);
 
 function increment() {
-  count.value++;
+  store.commit(Mutation.INCREMENT, 1);
 }
 </script>
 
