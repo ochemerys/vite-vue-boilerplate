@@ -1,4 +1,16 @@
 <script setup lang="ts">
+import { computed } from "vue";
+import { useHead } from "@vueuse/head";
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+useHead({
+  title: computed(() =>
+    route && route.meta && route.meta.title
+      ? <string>route.meta.title
+      : "Boilerplate"
+  ),
+});
 </script>
 
 <template>
