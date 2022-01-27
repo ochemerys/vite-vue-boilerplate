@@ -7,11 +7,11 @@ const thisYear = new Date().getFullYear()
 </script>
 
 <template>
-  <h1>About</h1>
-  <p>Version: {{ VERSION }}</p>
-  <p>
+  <h1 class="text-blue-800 text-xl font-medium mb-8">About</h1>
+  <p class="text-slate-600">Version: {{ VERSION }}</p>
+  <p class="text-slate-500">
     Project Name by
-    <a class="" href="#">Company Name</a> &copy; 2020-{{ thisYear }}.
+    <a class="hover:text-slate-900" href="#">Company Name</a> &copy; 2020-{{ thisYear }}.
     <template v-if="BUILD_DATE"> Site built {{ BUILD_DATE.toLocaleDateString() }}. </template>
     <template v-else> Development mode. </template>
   </p>  
