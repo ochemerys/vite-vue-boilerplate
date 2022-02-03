@@ -7,7 +7,13 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue --ignore-path .gitignore",
     "lint:fix": "npm run lint --fix src",
-    "format": "prettier .  --write"
+    "format": "prettier .  --write",
+    "test:unit": "cypress open-ct",
+    "test:e2e": "start-server-and-test dev http-get://localhost:3000 cypress",
+    "ci:unit": "cypress run-ct",
+    "ci:e2e": "start-server-and-test dev http-get://localhost:3000 cypress:ci",
+    "cypress": "cypress open",
+    "cypress:ci": "cypress run --headless"
   },
   "dependencies": {
     "@vueuse/head": "^0.7.5",
@@ -16,14 +22,18 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@cypress/vite-dev-server": "^2.2.2",
+    "@cypress/vue": "^3.1.0",
     "@types/node": "^17.0.12",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "@vitejs/plugin-vue": "^2.0.0",
+    "cypress": "^9.3.1",
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-vue": "^8.3.0",
     "prettier": "^2.5.1",
+    "start-server-and-test": "^1.14.0",
     "typescript": "^4.4.4",
     "vite": "^2.7.2",
     "vue-tsc": "^0.29.8"
