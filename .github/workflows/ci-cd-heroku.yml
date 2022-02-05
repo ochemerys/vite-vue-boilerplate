@@ -9,7 +9,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  ci_cd_heroku:
 
     runs-on: ubuntu-latest
 
