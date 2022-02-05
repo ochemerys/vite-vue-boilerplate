@@ -35,7 +35,7 @@ jobs:
         CI: true
 
     - name: add heroku remote
-      if: ${{success}}
+      if: ${{success()}}
       run: |
         echo Success
         git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
