@@ -10,6 +10,7 @@
     "format": "prettier .  --write",
     "test:unit": "cypress open-ct",
     "test:e2e": "start-server-and-test dev http-get://localhost:3000 cypress",
+    "test:ci": "npm run ci:unit && npm run ci:e2e",
     "ci:unit": "cypress run-ct",
     "ci:e2e": "start-server-and-test dev http-get://localhost:3000 cypress:ci",
     "cypress": "cypress open",

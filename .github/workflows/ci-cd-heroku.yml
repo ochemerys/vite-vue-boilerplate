@@ -30,8 +30,7 @@ jobs:
       run: npm run build --if-present
 
     - name: tests
-      run: npm run ci:unit --passWithNoTests
-      run: npm run ci:e2e --passWithNoTests
+      run: npm run test:ci --passWithNoTests
       env:
         CI: true
 
