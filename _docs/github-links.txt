@@ -1,0 +1,2 @@
+Check github status if there any incidents
+https://www.githubstatus.com/

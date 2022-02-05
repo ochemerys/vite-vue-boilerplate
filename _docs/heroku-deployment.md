@@ -19,6 +19,11 @@ Heroku builds ***vite-vue*** website before serving it, so we should have the he
 1. Run the following cli command:
 
 ``` bash
+heroku login
+heroku git:remote -a vite-vue
+```
+
+``` bash
 heroku buildpacks:set heroku/nodejs -a vite-vue
 ```
 This will remove any previously set buildpacks and set the heroku/nodejs buildpack as the only buildpack to run.
