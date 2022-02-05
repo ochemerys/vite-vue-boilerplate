@@ -1,6 +1,6 @@
 # Vue 3 + Typescript + Vite
 
-![CI/CD Heroku](https://github.com/ochemerys/vite-vue-boilerplate/actions/workflows/ci-cd-heroku.yml/badge.svg?branch=master)
+![CI/CD Heroku](https://github.com/ochemerys/vite-vue-boilerplate/actions/workflows/ci-cd-heroku.yml/badge.svg?branch=main)
 
 ## Recommended IDE Setup
 
