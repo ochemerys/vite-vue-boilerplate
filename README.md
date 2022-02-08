@@ -1,11 +1,25 @@
-# Vue 3 + Typescript + Vite
+# PWA with Vite + Vue 3 + Typescript Boilerplate
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[![ci-cd-heroku](https://github.com/ochemerys/vite-vue-boilerplate/actions/workflows/ci-cd-heroku.yml/badge.svg)](https://github.com/ochemerys/vite-vue-boilerplate/actions/workflows/ci-cd-heroku.yml)
+
+This is Progressive Web Application (PWA) which includes:
+
+* Vite compiler,
+* Vue 3 frontend framework, 
+* Typescript language,
+* Tailwind css framework,
+* Cypress e2e and components unit testing framework
 
 ## Recommended IDE Setup
 
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
-## Type Support For `.vue` Imports in TS
+## Branches
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+* base-setup: Vite + Vue 3 + VUEX + Vue Router
+* tailwind-setup: base-setup + TailwindCSS
+* pwa-setup: base-setup + PWA (Progressive Web Application)
+* test-setup: base-setup + Cypres Component unit tests and Cypress e2e tests
+* supabase-setup:
+* develop: current development merges
+* main: latest release merges
