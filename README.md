@@ -4,11 +4,11 @@
 
 This is Progressive Web Application (PWA) which includes:
 
-* Vite compiler,
-* Vue 3 frontend framework, 
-* Typescript language,
-* Tailwind css framework,
-* Cypress e2e and components unit testing framework
+- Vite compiler,
+- Vue 3 frontend framework,
+- Typescript language,
+- Tailwind css framework,
+- Cypress e2e and components unit testing framework
 
 ## Recommended IDE Setup
 
@@ -16,10 +16,10 @@ This is Progressive Web Application (PWA) which includes:
 
 ## Branches
 
-* base-setup: Vite + Vue 3 + VUEX + Vue Router
-* tailwind-setup: base-setup + TailwindCSS
-* pwa-setup: base-setup + PWA (Progressive Web Application)
-* test-setup: base-setup + Cypres Component unit tests and Cypress e2e tests
-* supabase-setup:
-* develop: current development merges
-* main: latest release merges
+- base-setup: Vite + Vue 3 + VUEX + Vue Router
+- tailwind-setup: base-setup + TailwindCSS
+- pwa-setup: base-setup + PWA (Progressive Web Application)
+- test-setup: base-setup + Cypres Component unit tests and Cypress e2e tests
+- supabase-setup:
+- develop: current development merges
+- main: latest release merges

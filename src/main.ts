@@ -7,14 +7,14 @@ import App from "./App.vue";
 import router from "./router";
 import { store } from "./store";
 
-import { registerSW } from 'virtual:pwa-register'
+import { registerSW } from "virtual:pwa-register";
 
 registerSW({
-    // eslint-disable-next-line @typescript-eslint/no-empty-function
-    onNeedRefresh() {},
-    // eslint-disable-next-line @typescript-eslint/no-empty-function
-    onOfflineReady() {},
-  })
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  onNeedRefresh() {},
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  onOfflineReady() {},
+});
 
 const head = createHead();
 
