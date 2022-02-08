@@ -16,10 +16,10 @@ function increment() {
 </script>
 
 <template>
-  <button
+  <button 
     class="bg-blue-600 m-4 px-3 py-3 text-blue-200 rounded-md hover:bg-blue-800"
     @click="increment"
   >
-    {{props.text}}: {{ count }}
+    count is: {{ count }}
   </button>
 </template>

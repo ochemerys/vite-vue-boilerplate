@@ -20,6 +20,6 @@ This is Progressive Web Application (PWA) which includes:
 * tailwind-setup: base-setup + TailwindCSS
 * pwa-setup: base-setup + PWA (Progressive Web Application)
 * test-setup: base-setup + Cypres Component unit tests and Cypress e2e tests
-* supabase-setup:git
+* supabase-setup:
 * develop: current development merges
 * main: latest release merges
