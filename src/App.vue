@@ -17,10 +17,14 @@ useHead({
   <div class="flex flex-col items-center mx-4">
     <ul class="flex justify-center mb-4">
       <li class="mr-6">
-        <router-link to="/" class="text-blue-600 hover:text-blue-800">Home</router-link>
+        <router-link to="/" class="text-blue-600 hover:text-blue-800"
+          >Home</router-link
+        >
       </li>
       <li class="mr-6">
-        <router-link to="/about" class="text-blue-600 hover:text-blue-800">About</router-link>
+        <router-link to="/about" class="text-blue-600 hover:text-blue-800"
+          >About</router-link
+        >
       </li>
       <li class="mr-6">
         <a class="text-gray-400 cursor-not-allowed" href="#">Disabled</a>
@@ -28,9 +32,7 @@ useHead({
     </ul>
 
     <router-view />
-  </div> 
+  </div>
 </template>
 
-<style>
-
-</style>
+<style></style>
