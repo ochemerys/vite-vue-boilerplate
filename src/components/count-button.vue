@@ -20,6 +20,6 @@ function increment() {
     class="bg-blue-600 m-4 px-3 py-3 text-blue-200 rounded-md hover:bg-blue-800"
     @click="increment"
   >
-    count is: {{ count }}
+    {{props.text}}: {{ count }}
   </button>
 </template>
