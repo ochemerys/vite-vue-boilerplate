@@ -13,3 +13,13 @@ This is Progressive Web Application (PWA) which includes:
 ## Recommended IDE Setup
 
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+
+## Branches
+
+* base-setup: Vite + Vue 3 + VUEX + Vue Router
+* tailwind-setup: base-setup + TailwindCSS
+* pwa-setup: base-setup + PWA (Progressive Web Application)
+* test-setup: base-setup + Cypres Component unit tests and Cypress e2e tests
+* supabase-setup:git
+* develop: current development merges
+* main: latest release merges
