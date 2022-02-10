@@ -31,9 +31,9 @@ jobs:
       env:
         CI: true
     - name: upload coverage
-        uses: codecov/codecov-action@v2
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+      uses: codecov/codecov-action@v2
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
 
     - name: add heroku remote
       if: ${{success()}}
